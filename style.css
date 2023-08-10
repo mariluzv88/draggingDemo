@@ -11,9 +11,10 @@ body{
     margin: 0;
 }
 .boxes{
+   
     height: 800px;
     padding: 100px;
-    width: 100%;
+    width: 4000px;
     border: 1px solid cyan;
     box-shadow: 0 0 10px 7px rgba(0,0,0,0.09);
     overflow-x: scroll;
@@ -26,18 +27,27 @@ body{
     position: relative;
     perspective: 500px;
     color: white;
+
 }
+::-webkit-scrollbar{
+    display: none;
+    scrollbar-width: none ;
+ }
 .box.active{
     cursor: grabbing;
     cursor:-webkit-grabbing;
     transform: scale(1);
 }
 .box{
+    
+    border: solid purple;
+    /* margin-left: 50px; */
     width: 200px;
     height: calc(100% - 40px);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 80px;
+    font-size: 40px;
+    padding: 40px;
     cursor: grabbing;
 }
