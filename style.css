@@ -12,10 +12,10 @@ body{
 }
 .boxes{
    
-    height: 800px;
+    height: 1100px;
     padding: 100px;
-    width: 4000px;
-    border: 1px solid cyan;
+    width: 800px;
+    border: 1px solid rgb(129, 84, 0);
     box-shadow: 0 0 10px 7px rgba(0,0,0,0.09);
     overflow-x: scroll;
     overflow-y: hidden;
@@ -39,11 +39,15 @@ body{
     transform: scale(1);
 }
 .box{
-    
-    border: solid purple;
+    height:910px ;
+    /* width: 89px; */
+    width: 178px;
+    background-image: url("images/akats.webp");
+    background-size: 1005 100%;
+    /* border: solid purple; */
     /* margin-left: 50px; */
-    width: 200px;
-    height: calc(100% - 40px);
+    margin: 5px;
+    /* height: calc(100% - 40px); */
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -51,3 +55,66 @@ body{
     padding: 40px;
     cursor: grabbing;
 }
+/* ---box image styles---- */
+#one{
+background-position-x: 0px;
+
+
+}
+#two{
+background-position-x: -178px;
+}
+#three{
+background-position-x: -356px;
+}
+#four{
+background-position-x: -534px;
+}
+#five{
+background-position-x: -712px;
+}
+#six{
+background-position-x: -890px;
+}
+#seven{
+background-position-x: -1068px;
+}
+#eight{
+background-position-x: -1246px;
+}
+#nine{
+background-position-x: -1424px;
+}
+#ten{
+background-position-x: -1602px;
+}
+/* #eleven{
+background-position-x: -890px;
+}
+#twelve{
+background-position-x: -979px;
+}
+#thirteen{
+background-position-x: -1068px;
+}
+#fourteen{
+background-position-x: -1157px;
+}
+#fifteen{
+background-position-x: -1246px;
+}
+#sixteen{
+background-position-x: -1335px;
+}
+#seventeen{
+background-position-x: -1424px;
+}
+#eighteen{
+background-position-x: -1513px;
+}
+#nineteen{
+background-position-x: -1602px;
+}
+#twenty{
+background-position-x: -1691px;
+} */
